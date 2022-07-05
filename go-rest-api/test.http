@@ -1,0 +1,15 @@
+GET http://localhost:5000/users
+######
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "id":"1",
+    "username":"non",
+    "email":"nonmws61@gmail.com" ,
+    "password":"123"
+}
+#####
+
+DELETE http://localhost:5000/users/
